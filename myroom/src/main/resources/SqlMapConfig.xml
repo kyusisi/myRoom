@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  <!-- spring mvc에 이미 드라이버 설정을 해놓은 상태 -->
+  
+<configuration>
+	<typeAliases>
+		<typeAlias type="kr.co.soldesk.dto.DeptDTO" alias="dto"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="src/main/resources/Mapper.xml"/>
+	</mappers>
+	
+</configuration>
